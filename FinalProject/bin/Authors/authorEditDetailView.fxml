@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="edSaveBtn" layoutX="413.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="98.0" text="Save" />
+      <Label layoutX="242.0" layoutY="14.0" text="Author Detail View">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField id="edFirstName" fx:id="edFirstName" layoutX="38.0" layoutY="71.0" prefHeight="20.0" prefWidth="237.0" />
+      <TextField fx:id="edLastName" layoutX="38.0" layoutY="130.0" prefHeight="5.0" prefWidth="237.0" />
+      <TextField fx:id="edGender" layoutX="38.0" layoutY="200.0" />
+      <TextField fx:id="edWebsite" layoutX="38.0" layoutY="268.0" />
+      <DatePicker fx:id="edDatePicker" layoutX="310.0" layoutY="64.0" />
+      <Label layoutX="38.0" layoutY="54.0" text="First Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="113.0" text="Last Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="180.0" text="Gender">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="248.0" text="Website">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="bAudit" layoutX="89.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Audit Trail" />
+   </children>
+</AnchorPane>

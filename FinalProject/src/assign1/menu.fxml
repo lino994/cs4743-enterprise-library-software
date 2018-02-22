@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+
+<MenuBar fx:id="menuBar" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assign1.MenuController">
+  <menus>
+    <Menu text="File">
+      <items>
+        <MenuItem fx:id="menuMain" onAction="#handleMenuAction" text="Main" />
+        <MenuItem fx:id="menuLogin" onAction="#handleMenuAction" text="Login" />
+      	<MenuItem fx:id="menuLogout" onAction="#handleMenuAction" text="Logout" />
+      	<MenuItem fx:id="menuExit" onAction="#handleMenuAction" text="Exit" />
+      </items>
+    </Menu>
+    <Menu text="Authors">
+         <items>
+        <MenuItem fx:id="menuItem" onAction="#handleMenuAction" text="Author List" />
+        <MenuItem fx:id="menuAddItem" onAction="#handleMenuAction" text="Add Author" />
+     </items></Menu>
+     <Menu text="Books">
+         <items>
+        <MenuItem fx:id="bookList" onAction="#handleMenuAction" text="Book List" />
+        <MenuItem fx:id="addBook" onAction="#handleMenuAction" text="Add Book" />
+     </items></Menu>
+     <Menu text="Library">
+         <items>
+        <MenuItem fx:id="libraryList" onAction="#handleMenuAction" text="Library List" />
+        <MenuItem fx:id="addLibrary" onAction="#handleMenuAction" text="Add Library" />
+     </items></Menu>   
+  </menus>
+</MenuBar>
